@@ -23,9 +23,11 @@ You can do this by running the following command in your terminal
 python dependencies.py
 ```
 
-You can install most of these dependencies using pip:
+You can also install most of these dependencies using pip:
 ```bash
 pip install torch transformers whisper pyannote scikit-learn pandas matplotlib twilio
+pip install -q git+https://github.com/openai/whisper.git > /dev/null
+pip install -q git+https://github.com/pyannote/pyannote-audio > /dev/null
 ```
 
 ## Models
