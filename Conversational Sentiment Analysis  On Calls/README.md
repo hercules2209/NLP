@@ -1,6 +1,3 @@
-Sure, I can help you write a README.md file for your sentiment analysis project on incoming calls at a helpdesk. Below is a template for your README.md file:
-
-
 # Sentiment Analysis on Incoming Calls at Helpdesk
 
 ## Introduction
