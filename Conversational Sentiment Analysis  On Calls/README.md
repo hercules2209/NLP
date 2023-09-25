@@ -40,7 +40,7 @@ pip install -q git+https://github.com/pyannote/pyannote-audio > /dev/null
 - Used to transcribe spoken conversations.
 - Model: Whisper ASR (Automatic Speech Recognition)
 - References used
-  	https://github.com/openai/whisper </br>
+  	https://github.com/openai/whisper </br> </t>
  	https://github.com/m-bain/whisperX/blob/main/README.md
  	
 ### Sentiment Classification Model
