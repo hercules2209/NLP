@@ -1,7 +1,7 @@
 # Sentiment Analysis on Incoming Calls at Helpdesk
 
 ## Introduction
-This project aims to perform sentiment analysis on incoming calls at a helpdesk. It uses a combination of machine learning models and various libraries to transcribe, translate, and classify the sentiment of spoken conversations.
+This project aims to perform sentiment analysis on incoming calls at a helpdesk. It uses a combination of machine learning models and various libraries to transcribe, translate, and classify the sentiment of spoken conversations. This code was made for SIH hackathon 2023 problem statement number 1356.
 
 ## Dependencies
 Before running the code, make sure you have the following dependencies installed:
