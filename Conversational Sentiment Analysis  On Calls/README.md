@@ -6,6 +6,7 @@ This project aims to perform sentiment analysis on incoming calls at a helpdesk.
 ## Dependencies
 Before running the code, make sure you have the following dependencies installed:
 - Python 3.x
+- git
 - PyTorch
 - Transformers
 - Whisper
@@ -15,6 +16,12 @@ Before running the code, make sure you have the following dependencies installed
 - matplotlib
 - Twilio
 - ffmpeg (for audio processing)
+
+Run dependencies.py to install dependecies
+You can do this by running the following command in your terminal
+```bash
+python dependencies.py
+```
 
 You can install most of these dependencies using pip:
 ```bash
