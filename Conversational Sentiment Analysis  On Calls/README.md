@@ -25,7 +25,7 @@ pip install torch transformers whisper pyannote scikit-learn pandas matplotlib t
 ### Speaker Embedding Model
 - Used for speaker verification and clustering.
 - Model: "speechbrain/spkrec-ecapa-voxceleb"
-- Huggong face link: https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb
+- Hugging face link: https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb
 
 ### Transcription Model
 - Used to transcribe spoken conversations.
@@ -38,11 +38,20 @@ pip install torch transformers whisper pyannote scikit-learn pandas matplotlib t
 - Used for classifying the sentiment of transcribed text.
 - Model: "j-hartmann/emotion-english-distilroberta-base"
 - Citation: Jochen Hartmann, "Emotion English DistilRoBERTa-base". https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/, 2022.
+- Hugging face link: https://huggingface.co/j-hartmann/emotion-english-distilroberta-base
 
 ### Translation Model
 - Used for translating text from one language to another.
 - Model: "facebook/mbart-large-50-many-to-many-mmt"
-- Hugging face link: https://huggingface.co/j-hartmann/emotion-english-distilroberta-base
+- Hugging face link: https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt
+- Citation: @article{tang2020multilingual,
+    title={Multilingual Translation with Extensible Multilingual Pretraining and Finetuning},
+    author={Yuqing Tang and Chau Tran and Xian Li and Peng-Jen Chen and Naman Goyal and Vishrav Chaudhary and Jiatao Gu and Angela Fan},
+    year={2020},
+    eprint={2008.00401},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
 
 ## Code Structure
 - `Main Model Pipeline`: Contains the main code for transcription, speaker clustering, translation, and sentiment analysis.
